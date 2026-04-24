@@ -4,7 +4,7 @@ import myphoto from "@/public/myphoto.webp";
 const Landing = () => {
   return (
     <div className="flex h-screen max-w-screen items-center justify-center">
-      <div className="relative">
+      <div className="relative -z-1">
         <Image src={myphoto} alt="myphoto" className="" />
       </div>
       <div className="absolute flex h-full w-full flex-col items-start justify-end p-10 text-amber-50">
