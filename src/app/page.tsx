@@ -1,8 +1,9 @@
+import Landing from "@/components/Landing";
 const Home = () => {
   return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      Hello World
-    </div>
+    <>
+      <Landing />
+    </>
   );
 };
 

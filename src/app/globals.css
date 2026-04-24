@@ -1,1 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 @import "tailwindcss";
+
+@theme {
+  --color-dusty-rose: #b78a78;
+  --color-my-gray-100: #b3b3b3;
+
+  --font-koulen: "Koulen", sans-serif;
+}
