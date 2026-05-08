@@ -5,9 +5,9 @@ const Landing = () => {
   return (
     <div className="flex h-screen max-w-screen items-center justify-center">
       <div className="relative -z-1">
-        <Image src={myphoto} alt="myphoto" className="" />
+        <Image src={myphoto} alt="myphoto" />
       </div>
-      <div className="absolute flex h-full w-full flex-col items-start justify-end p-10 text-amber-50">
+      <div className="absolute flex h-full w-full cursor-default flex-col items-start justify-end p-10">
         <div className="text-dusty-rose font-koulen mb-5 w-1/3 text-center text-8xl/30 text-balance">
           Motunrayo Lawrence
         </div>

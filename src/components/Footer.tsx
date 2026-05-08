@@ -1,5 +1,5 @@
-const Navbar = () => {
+const Footer = () => {
   return <div className=""></div>;
 };
 
-export default Navbar;
+export default Footer;
