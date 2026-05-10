@@ -8,28 +8,28 @@ const Experience = () => {
       <div className="flex h-full justify-center">
         <Card
           title="Web Dev Lead"
-          fromColor="from-blue-900"
-          toColor="to-blue-300"
+          fromColor="from-blue-950"
+          toColor="to-blue-200/50"
         />
         <Card
           title="Peer Mentor"
-          fromColor="from-red-900"
-          toColor="to-red-300"
+          fromColor="from-lime-950"
+          toColor="to-lime-100/40"
         />
         <Card
           title="Makerspace Intern"
-          fromColor="from-green-900"
-          toColor="to-green-300"
+          fromColor="from-fuchsia-950"
+          toColor="to-fuchsia-100/50"
         />
         <Card
           title="Content Creator/ Instructor"
-          fromColor="from-amber-900"
-          toColor="to-amber-300"
+          fromColor="from-amber-950"
+          toColor="to-amber-100/40"
         />
         <Card
           title="Web Dev Intern"
-          fromColor="from-violet-900"
-          toColor="to-violet-300"
+          fromColor="from-cyan-950"
+          toColor="to-cyan-100/40"
         />
       </div>
     </div>

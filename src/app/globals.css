@@ -9,3 +9,6 @@
   --font-koulen: "Koulen", sans-serif;
   --font-dot-gothic: "DotGothic16", sans-serif;
 }
+body {
+  background-color: black;
+}
