@@ -13,13 +13,14 @@ const Education = () => {
             University of California, Riverside <br />
             09/2023 - 06/2027
             <br />
-            Bachelor of Science, Computer Science | GPA: 3.66
+            Bachelor of Science, Computer Science | GPA: 3.63
           </div>
           <hr className="mb-4 border-2" />
           <div>
             <span className="font-bold">Coursework:</span> Data Structures &
             Algorithms, Software Construction, Discrete Structures, Computer
-            Systems Architecture, Linear Algebra <br />
+            Systems Architecture, Linear Algebra, Introduction to Artifical
+            Inteligence, Virtual Reality, Operating Systems <br />
             <br />
             <span className="font-bold">Activities and Associations:</span>{" "}
             National Society of Black Engineers - Secretary, Association of
