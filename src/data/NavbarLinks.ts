@@ -5,19 +5,20 @@ export interface navigation {
 const navigations: navigation[] = [
   {
     name: "Home",
-    link: "/",
+    link: "#landing",
   },
   {
     name: "Experience",
-    link: "/",
+    link: "#experience",
+  },
+
+  {
+    name: "Education",
+    link: "#education",
   },
   {
     name: "Projects",
-    link: "/",
-  },
-  {
-    name: "Education",
-    link: "/",
+    link: "#projects",
   },
 ];
 export default navigations;

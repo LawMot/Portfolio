@@ -6,10 +6,18 @@ import Projects from "@/components/Projects";
 const Home = () => {
   return (
     <>
-      <Landing />
-      <Experience />
-      <Education />
-      <Projects />
+      <div id="landing">
+        <Landing />
+      </div>
+      <div id="experience">
+        <Experience />
+      </div>
+      <div id="education">
+        <Education />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
     </>
   );
 };
