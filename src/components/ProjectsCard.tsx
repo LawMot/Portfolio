@@ -54,7 +54,6 @@ const ProjectsCard = ({ image, title, description, link }: CardProps) => {
               <div className="mb-3 text-2xl font-bold">{title}</div>
               <div className="mb-4 w-fit rounded-md bg-white px-3 text-black">
                 <Link href={link} target="_blank">
-                  {" "}
                   ▶ Link
                 </Link>
               </div>

@@ -1,10 +1,10 @@
 import Image from "next/image";
-import myphoto from "@/public/myphoto.webp";
+import myphoto from "@/public/IMG_3644.jpg";
 
 const Landing = () => {
   return (
-    <div className="flex h-screen max-w-screen items-center justify-center">
-      <div className="relative -z-1">
+    <div className="flex h-screen max-w-screen items-center justify-center overflow-clip">
+      <div className="relative -z-1 mt-90 overflow-clip">
         <Image src={myphoto} alt="myphoto" />
       </div>
       <div className="absolute flex h-full w-full cursor-default flex-col items-start justify-end p-10">
