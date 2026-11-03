@@ -20,7 +20,7 @@ const ProjectsCard = ({ image, title, description, link }: CardProps) => {
         onClick={() => setIsOpen(true)}
         className="flex h-60 w-full shrink-0 justify-center px-2 sm:w-1/2 lg:w-1/4"
       >
-        <div className="font-dot-gothic relative h-full w-full overflow-hidden rounded-lg shadow-[6px_7px_10px_1px_rgba(255,255,255,0.2)] cursor-pointer">
+        <div className="font-dot-gothic relative h-full w-full cursor-pointer overflow-hidden rounded-lg shadow-[6px_7px_10px_1px_rgba(255,255,255,0.2)]">
           <Image
             src={image}
             alt={title}

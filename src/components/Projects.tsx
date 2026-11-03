@@ -30,13 +30,15 @@ const Projects = () => {
       <div className="relative mb-10 flex items-center">
         <button
           onClick={() => scroll("left")}
-          className="z-10 flex h-10 w-10 items-center justify-center rounded-full text-2xl text-white backdrop-blur hover:bg-white/10 cursor-pointer"
+          className="z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full text-2xl text-white backdrop-blur hover:bg-white/10"
         >
           ⟨
         </button>
 
-        <div ref={carouselRef} className="flex h-60 w-full overflow-x-auto scroll-smooth no-scrollbar"
-        style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+        <div
+          ref={carouselRef}
+          className="no-scrollbar flex h-60 w-full overflow-x-auto scroll-smooth"
+          style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           <ProjectsCard
             image={CrossAMole}
@@ -92,7 +94,7 @@ to evaluate feature importance."
 
         <button
           onClick={() => scroll("right")}
-          className="z-10 flex h-10 w-10 items-center justify-center rounded-full text-2xl text-white backdrop-blur hover:bg-white/10 cursor-pointer"
+          className="z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full text-2xl text-white backdrop-blur hover:bg-white/10"
         >
           ⟩
         </button>
