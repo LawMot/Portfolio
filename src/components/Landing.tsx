@@ -17,9 +17,9 @@ const Landing = () => {
         </div>
         <div className="text-my-gray-100 mb-4 rounded-4xl bg-black/60 p-5 text-center md:text-start lg:w-1/3">
           I am a computer science student at UC Riverside with experience in
-          software development, UI/UX, media production and data analytics.
-          I hope to combine my skills in software development and UI/UX with
-          my passion for media, film and the entertainment industry.
+          software development, UI/UX, media production and data analytics. I
+          hope to combine my skills in software development and UI/UX with my
+          passion for media, film and the entertainment industry.
         </div>
       </div>
     </div>

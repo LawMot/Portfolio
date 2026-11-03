@@ -37,12 +37,12 @@ const Navbar = () => {
       </div>
       <div className="relative m-5 flex flex-row" ref={dropdownRef}>
         <span
-            className={`transform transition-transform duration-200 text-white mr-3 mt-2 ${
-              isOpen ? "rotate-0" : "rotate-90"
-            }`}
-          >
-            ⟩
-          </span>
+          className={`mt-2 mr-3 transform text-white transition-transform duration-200 ${
+            isOpen ? "rotate-0" : "rotate-90"
+          }`}
+        >
+          ⟩
+        </span>
         <button
           onClick={() => setIsOpen(!isOpen)}
           aria-expanded={isOpen}
@@ -50,7 +50,7 @@ const Navbar = () => {
         />
 
         {isOpen && (
-          <div className="absolute right-2 top-8 z-50 mt-2 w-40 rounded-lg bg-zinc-900 py-2 text-white shadow-xl">
+          <div className="absolute top-8 right-2 z-50 mt-2 w-40 rounded-lg bg-zinc-900 py-2 text-white shadow-xl">
             <Link
               href="https://linkedin.com/in/motunrayo-lawrence"
               target="_blank"
