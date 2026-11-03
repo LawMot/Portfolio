@@ -51,7 +51,7 @@ const Projects = () => {
             image={Flushed}
             title="Flushed"
             description="A website for finding the best-rated public and private restrooms on the UC Riverside Campus created with HTM/CSS, REact.js, Vite, React, Node.js, Express.js, MongoDB, Mongoose, JWT, and Google OAuth."
-            link="https://github.com/UCR-CS110/final-project-flushed"
+            link="https://github.com/LawMot/flushed"
           />
 
           <ProjectsCard
