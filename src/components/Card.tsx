@@ -12,15 +12,20 @@ interface CardProps {
 
 const Card = ({ title, fromColor, toColor, description }: CardProps) => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
-      <button onClick={() => setIsOpen(true)} className="flex w-1/6">
+      <button 
+        onClick={() => setIsOpen(true)} 
+        className="flex w-[260px] sm:w-[300px] lg:w-[340px] aspect-[3/4] shrink-0 transition-transform duration-200 hover:scale-[1.02]"
+      >
         <div
-          className={`flex bg-gradient-to-b ${fromColor} ${toColor} font-dot-gothic m-6 w-full items-end rounded-lg pb-2 pl-2 text-4xl text-white shadow-[6px_7px_10px_1px_rgba(255,255,255,0.2)]`}
+          className={`flex bg-gradient-to-b ${fromColor} ${toColor} font-dot-gothic lg:m-6 w-full h-full items-end rounded-lg pb-2 pl-2 text-4xl text-white text-start shadow-[6px_7px_10px_1px_rgba(255,255,255,0.2)] cursor-pointer`}
         >
           {title}
         </div>
       </button>
+
       {isOpen && (
         <div
           className={`fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4 backdrop-blur-sm`}
@@ -41,7 +46,7 @@ const Card = ({ title, fromColor, toColor, description }: CardProps) => {
 
             <div className="h-58 bg-linear-to-t from-black from-10% to-black/0 p-6">
               <div className="mb-3 text-2xl font-bold">{title}</div>
-              <div className="mb-4 w-fit rounded-md bg-white px-3 text-black">
+              <div className="mb-4 w-fit rounded-md bg-white/30 px-3 text-black cursor-not-allowed">
                 ▶ Link
               </div>
 
