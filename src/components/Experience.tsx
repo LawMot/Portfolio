@@ -17,7 +17,7 @@ const Experience = () => {
   };
 
   return (
-    <div className="absolute z-10 -mt-22 mb-15 flex h-[50vh] w-full flex-col bg-gradient-to-t from-black from-90% to-black/0 md:mb-5 md:h-[60vh] lg:mb-15 lg:h-[70vh]">
+    <div className="-mt-22 mb-15 flex h-[50vh] w-full flex-col bg-gradient-to-t from-black from-90% to-black/0 md:mb-5 md:h-[60vh] lg:mb-15 lg:h-[70vh]">
       <div className="mt-24 mb-4 ml-6 text-xl font-bold text-white md:ml-10">
         Experience
       </div>
